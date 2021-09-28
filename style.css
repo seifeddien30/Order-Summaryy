@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+}
+
+.backgroundimage {
+    width: 100%;
+}
+
+.main-card {
+    position: relative;
+    bottom: 350px;
+    background-color: white;
+    width: 29%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 10px rgb(0 0 0 / 0.1);
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.title {
+    width: 70%;
+    margin: auto;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.discripe {
+    width: 80%;
+    margin: auto;
+    color: rgb(146, 146, 146);
+    margin: 40px auto;
+
+}
+
+.payment-card {
+    margin: auto 40px 25px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 25px;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    margin: 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.dollar {
+    color: rgb(146, 146, 146);
+    margin: 0;
+}
+
+.pay {
+    margin: 14px;
+}
+
+.proccess {
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 15px 10px rgb(0 0 0 / 0.1);
+
+}
+
+.proccess:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.payment {
+    color: white;
+    display: inline;
+
+
+}
+
+.change {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: hsl(245, 75%, 52%);
+
+}
+
+.cancel {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    font-weight: 700;
+
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
